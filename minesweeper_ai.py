@@ -11,10 +11,13 @@ import copy
 import math
 from collections import defaultdict, deque
 
+# Get the base directory of the project (works regardless of IDE)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Path to your Minesweeper game
-GAME_PATH = r"%USERPROFILE%\PycharmProjects\minesweeper\.venv\Scripts\minesweeper.py"
+GAME_PATH = os.path.join(BASE_DIR, ".venv", "Scripts", "minesweeper.py")
 # Path for exporting data
-EXPORT_PATH = r"%USERPROFILE%\PycharmProjects\minesweeper"
+EXPORT_PATH = BASE_DIR
 
 # Ensure export directory exists
 os.makedirs(EXPORT_PATH, exist_ok=True)
