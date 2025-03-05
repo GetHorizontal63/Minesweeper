@@ -41,8 +41,8 @@ This AI can be integrated with the included Minesweeper game implementation. The
 #### Game Menu
 ![Menu Screenshot](https://github.com/GetHorizontal63/Minesweeper/blob/main/screenshots/Menu.png)
 
-#### Gameplay on Hard Difficulty
-![Hard Difficulty Screenshot](https://github.com/GetHorizontal63/Minesweeper/blob/main/screenshots/Large%20Board%2C%20Hard.png)
+#### Gameplay in Action
+![Gameplay in Action](https://github.com/GetHorizontal63/Minesweeper/blob/main/gameplay/Minesweeper%20Gameplay%2C%2016x16%2020%25%20Saturation.gif)
 
 ## Usage
 1. Run the main script to start training:
